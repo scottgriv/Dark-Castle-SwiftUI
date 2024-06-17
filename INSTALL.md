@@ -16,6 +16,6 @@ Copy `Dark Castle.swift` and `Colors.xcassets` to your project's folder.
 
 #### Activating theme
 
-1. Import `DarkCastle`
+1. Import `Dark_Castle`
 2. Try `Color.darkCastleBackground`
 3. Boom! It's working
