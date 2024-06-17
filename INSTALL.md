@@ -1,19 +1,21 @@
-### Dark Castle Theme for [Example](https://example.com)
+### [SwiftUI](https://developer.apple.com/xcode/swiftui/)
 
-#### Install using Git
+#### Install using Swift Package Manager (Xcode 11+)
 
-If you are a git user, you can install the theme and keep it up to date by cloning the repo:
+[Swift Package Manager](https://swift.org/package-manager/) (SwiftPM) is a tool for managing the distribution of Swift code as well as C-family dependency. From Xcode 11, SwiftPM got natively integrated with Xcode.
 
-```bash
-git clone https://github.com/scottgriv/Dark-Castle-Example.git
-```
+Dark Castle support SwiftPM from version 5.3. To use SwiftPM, you should use Xcode 11 to open your project. Click `File` -> `Swift Packages` -> `Add Package Dependency`, enter [Dark Castle's repo's URL](https://github.com/scottgriv/Dark-Castle-SwiftUI.git).
 
-#### Install Manually
+After select the package, you can choose the dependency type (tagged version, branch or commit). Then Xcode will setup all the stuff for you.
 
-Download using the [GitHub .zip download](https://github.com/scottgriv/Dark-Castle-Example/archive/main.zip) option and unzip them.
+#### Install manually
 
-#### Activating the Theme
+Download using the [GitHub .zip download](https://github.com/scottgriv/Dark-Castle-SwiftUI/archive/refs/heads/master.zip) option and unzip them.
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+Copy `Dark Castle.swift` and `Colors.xcassets` to your project's folder.
+
+#### Activating theme
+
+1. Import `DarkCastle`
+2. Try `Color.darkCastleBackground`
+3. Boom! It's working

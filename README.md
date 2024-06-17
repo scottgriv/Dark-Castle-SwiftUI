@@ -4,8 +4,8 @@
     </a>
 </div>
 <h1 align="center">Dark Castle Theme for     
-    <a href="https://example.com" target="_blank">
-    [Example Platform]
+    <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">
+    SwiftUI
     </a>
 </h1>
 <p align="center">
